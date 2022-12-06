@@ -1,5 +1,4 @@
 let i = 1
-document.getElementById("radio1").checked = true
     
  setInterval(function(){
      nextImage()

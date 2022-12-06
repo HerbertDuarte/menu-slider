@@ -37,13 +37,16 @@ h1{
 }
 
 .slide{
-    width: 20%;
+    width: 400px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slide img{
-    width: 400px;
-    height: 225px;
+    height: 100%;
+    width: 100%;
 }
 
 #navigation-manual{
