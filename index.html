@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<body>
+    <h1>Menu Slider</h1>
+
+    <div id="slider">
+
+        <div id="slides">
+        
+        <!--Início dos radio buttons-->
+        <input type="radio" name="slide-items" id="radio1" checked>
+        <input type="radio" name="slide-items" id="radio2">
+        <input type="radio" name="slide-items" id="radio3">
+        <input type="radio" name="slide-items" id="radio4">
+        <input type="radio" name="slide-items" id="radio5">
+        <!--Fim dos radio buttons-->
+
+        <!--Imagens-->
+        <div class="first slide"><img src="html-img.png" alt="html"></div>
+        <div class="slide"><img src="css-img.jpeg" alt="css"></div>
+        <div class="slide"><img src="js-img.png" alt="js"></div>
+        <div class="slide"><img src="c-img.jpg" alt="c"></div>
+        <div class="slide"><img src="python-img.jpg" alt="python"></div>
+        <!--Fim imagens-->
+
+        
+        <div id="navigation-auto">
+
+            <div class="auto-btn-1"></div>
+            <div class="auto-btn-2"></div>
+            <div class="auto-btn-3"></div>
+            <div class="auto-btn-4"></div>
+            <div class="auto-btn-5"></div>
+
+        </div>
+        
+        <div id="navigation-manual">
+            
+            <label id="b1" class="manual" for="radio1"></label>
+            <label id="b2" class="manual" for="radio2"></label>
+            <label id="b3" class="manual" for="radio3"></label>
+            <label id="b4" class="manual" for="radio4"></label>
+            <label id="b5" class="manual" for="radio5"></label>
+            
+        </div>
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

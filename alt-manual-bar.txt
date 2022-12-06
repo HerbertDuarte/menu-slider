@@ -1,0 +1,33 @@
+#navigation-manual{
+    position: absolute;
+    width: 400px;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual{
+    border: 2px solid #000;
+    height: 7px;
+    width: 20px;
+    cursor: pointer;
+    transition: background-color .2s linear;
+    border-width: 2px 0 2px 0;
+}
+
+.manual:hover{
+    border-color: #000;
+    background-color: #000;
+}
+
+.ultimo{
+    border-width: 2px 2px 2px 0;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.primeiro{
+    border-width: 2px 0 2px 2px;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
